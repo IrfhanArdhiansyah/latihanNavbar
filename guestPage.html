@@ -1,0 +1,108 @@
+<html>
+<head>
+	<title>Data Pengunjung</title>
+	<link rel="stylesheet" href="style.css"> 
+	<style>
+		
+		.all {
+		display:flex;
+		margin-left:auto;
+		margin-right:auto;
+		justify-content:center;
+		gap:20px;
+		margin-top:40px;
+		}
+		
+		.card {
+			width:200px;
+			border: 1px solid red;
+			box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+			background-color: white;
+			overflow: hidden;
+			text-align:center;
+			border-radius:10px;
+
+		}
+		
+		.card-img {
+		width:100px;
+		height:100px;
+		object-fit:cover;
+		border-radius:50%;
+		margin:25px;
+		}
+		
+		.card-title {
+		font-size: 18px;
+		color: black;
+		}
+		
+		.card-subtitle {
+		font-size:15px;
+		color: black;
+		}
+		
+		.card-btn {
+			display: inline-block;
+			background-color: #007bff;
+			color: white;
+			padding: 10px 20px;
+			border-radius: 10px;
+			margin-top: 10px;
+			text-decoration: none;
+		}
+		
+		.card-btn:hover {
+		background-color: #0056b3;
+		}
+		
+
+	</style>
+</head>
+
+<body>
+	
+	<nav class="navbar">
+		<div class="logo">
+		<a href="https://irfhanardhiansyah.github.io/CodingCamp-17Nov25-IrfhanArdhiansyah/">IA</a>
+		</div>
+			<ul class="nav-links">
+				<li><a href="file:///C:/Users/irfha/OneDrive/Dokumen/HTML/Latihan%20Navbar/index.html">Beranda</a></li>
+				<li><a href="file:///C:/Users/irfha/OneDrive/Dokumen/HTML/latihanGit/latihan2.html">Profil</a></li>
+				<li><a href="#">Kontak</a></li>
+				<li><a href="file:///C:/Users/irfha/OneDrive/Dokumen/HTML/Latihan%20Navbar/guestPage.html">Buku Tamu</a></li>
+			</ul>
+		</nav>
+		
+	<div class="all">
+	<div class="card">
+		<img src="assets/image/img2.jpg" class="card-img">
+		<h3 class="card-title">Irfhan Ardhiansyah</h3>
+		<p class="card-subtitle">Rusher | Jungler | Junior Web Developer</p>
+		<button class="card-btn">
+			Lihat Profil
+		</button>
+	</div>
+	
+	
+	<div class="card">
+		<img src="assets/image/img3.png" class="card-img">
+		<h3 class="card-title">Irfhan Ardhiansyah</h3>
+		<p class="card-subtitle">Rusher | Jungler | Junior Web Developer</p>
+		<button class="card-btn">
+			Lihat Profil
+		</button>
+	</div>
+	
+	<div class="card">
+		<img src="assets/image/img4.jpeg" class="card-img">
+		<h3 class="card-title">Irfhan Ardhiansyah</h3>
+		<p class="card-subtitle">Rusher | Jungler | Junior Web Developer</p>
+		<button class="card-btn">
+			Lihat Profil
+		</button>
+		
+	</div>
+	</div>
+</body>
+</html>
